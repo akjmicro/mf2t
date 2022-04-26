@@ -5,12 +5,6 @@ CFLAGS = -O -w
 # as a macro rather than a variable, uncomment the following line:
 # CFLAGS = -O -DNO_YYLENG_VAR
 
-SRCS = crack.c mf2t.c midifile.c midifile.h t2mf.c t2mf.h \
-       t2mf.fl t2mflex.c yyread.c \
-       README.TXT makefile.st makefile.unx makefile.bcc makefile.msc\
-       example1.mid example1.txt example2.mid example2.txt example3.mid \
-       example3.txt example4.mid example4.txt example5.mid example5.txt
-
 EXECS = mf2t t2mf
 
 all:	$(EXECS)
@@ -26,13 +20,6 @@ t2mflex.o: t2mflex.c t2mf.h
 
 mf2t:	midifile.o mf2t.o crack.o
 	$(CC) mf2t.o midifile.o crack.o -o mf2t
-
-tar:
-	tar cf mf2t.tar $(SRCS)
-	compress mf2t.tar
-
-zip:	$(SRCS)
-	zip -9 mf2t $(SRCS)
 
 clean:
 	rm -f t2mf mf2t *.o
