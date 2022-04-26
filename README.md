@@ -19,6 +19,15 @@ via `README.md`:
 
 -- AKJ
 
+### Installing:
+
+`make` will create 2 executables, `mf2t` and `t2mf`.
+
+There is no `make install` step (for now), so just move the executables to
+an appropriate place on your system.
+
+To clean up all objects and excutables in the directory, do `make clean`
+
 ### General usage:
 
 The text representation is chosen such that it is easily recognized and
