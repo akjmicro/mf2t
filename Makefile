@@ -1,9 +1,4 @@
-# $Id: makefile.unx,v 1.3 1991/11/15 19:31:00 piet Rel $
-
 CFLAGS = -O -w
-# If you have an old version of flex that defines yyleng
-# as a macro rather than a variable, uncomment the following line:
-# CFLAGS = -O -DNO_YYLENG_VAR
 
 EXECS = mf2t t2mf
 
