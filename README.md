@@ -17,7 +17,7 @@ The original author, Piet van Oostrum, wrote the following notes. I leave
 them here, but make them a little friendlier to modern `github` reading
 via `README.md`:
 
-- AKJ
+-- AKJ
 
 ### General usage:
 
