@@ -32,7 +32,7 @@ To clean up all objects and excutables in the directory, do `make clean`
 
 The text representation is chosen such that it is easily recognized and
 manipulated by programs like `sed`, `awk`, or `perl`. Yet it is also humanly
-readable so that it can be manipulated with an ordianary text editor.
+readable so that it can be manipulated with an ordinary text editor.
 
 In this way you can make changes to your midifiles using these
 powerful programs or even a `Fortran` program :=). Or you can write
@@ -257,4 +257,3 @@ them uu- or btoa-encoded. Zoo and Arc archives (encoded) are also OK,
 Zip and Lharc may be problematic.
 ------------------------------------------------------------------------
 ```
-
